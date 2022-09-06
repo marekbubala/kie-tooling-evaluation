@@ -358,17 +358,17 @@ else "Insufficient"</dmn:text>
     </dmn:informationRequirement>
     <dmn:decisionTable id="_EF7F404A-939E-4889-95D8-E4053DD1EED9" hitPolicy="FIRST" preferredOrientation="Rule-as-Row">
       <dmn:input id="_58ABD81B-FD16-45C3-9E64-DB271AA917C0">
-        <dmn:inputExpression id="_5262441E-F812-4554-AF02-5267BDDF80F5" typeRef="Credit_Score_Rating">
+        <dmn:inputExpression id="_6C2DF932-4A22-4A27-B5C4-2C492E2B84C5">
           <dmn:text>Credit Score Rating</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
       <dmn:input id="_36258DA0-E527-429C-8FA1-7DEA63647689">
-        <dmn:inputExpression id="_4E9F0E06-85F1-4D10-B30D-FB55741B90BC" typeRef="Back_End_Ratio">
+        <dmn:inputExpression id="_D472FB02-5A8E-4AB4-B647-76D4026ED585">
           <dmn:text>Back End Ratio</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
       <dmn:input id="_A102CD8A-C38D-48E4-BC59-CA660D6FBF0A">
-        <dmn:inputExpression id="_5D79EEF5-71B2-4360-B59A-215AA5593DCB" typeRef="Front_End_Ratio">
+        <dmn:inputExpression id="_BFD7E957-0776-407E-8DE7-96CFDB6E3C00">
           <dmn:text>Front End Ratio</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
@@ -376,19 +376,19 @@ else "Insufficient"</dmn:text>
       <dmn:output id="_A8D2D3B1-07B3-4619-8DE0-F923F511058B" name="Reason" typeRef="string"/>
       <dmn:annotation name=""/>
       <dmn:rule id="_B49E1642-F352-4D2E-92B6-E5DFA59AAFAC">
-        <dmn:inputEntry id="_6C83C446-1A9A-4FFC-B30C-23915FF9CC43">
+        <dmn:inputEntry id="_49B00E5C-96FC-4984-B873-B9B6FE6C2CDB">
           <dmn:text>"Poor", "Bad"</dmn:text>
         </dmn:inputEntry>
-        <dmn:inputEntry id="_0BC93CB9-FD20-45C8-A498-39E4464B6224">
+        <dmn:inputEntry id="_90ACEA24-309A-4BEC-831F-D61FD3087174">
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
-        <dmn:inputEntry id="_1554A983-B2C1-40A7-9614-50720420F4B2">
+        <dmn:inputEntry id="_460ACCDF-E0F8-455D-B61A-619FDF2ECC5E">
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
-        <dmn:outputEntry id="_7B39B964-4E25-4717-92FE-A36F2B39FAB9">
+        <dmn:outputEntry id="_19F70119-6E54-4B81-B740-484C0AB60274">
           <dmn:text>"Not Qualified"</dmn:text>
         </dmn:outputEntry>
-        <dmn:outputEntry id="_A852F5B6-C5DF-4ADD-8B93-9701F0724912">
+        <dmn:outputEntry id="_0063EA6F-B175-4854-A3CE-AE051D1CC809">
           <dmn:text>"Credit Score too low."</dmn:text>
         </dmn:outputEntry>
         <dmn:annotationEntry>
@@ -396,19 +396,19 @@ else "Insufficient"</dmn:text>
         </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_214865F4-C968-438C-A385-6B2823AF1BC3">
-        <dmn:inputEntry id="_18617A2A-6DD3-41A9-87D6-68C91554620E">
+        <dmn:inputEntry id="_1ED5B803-5F02-4B95-86F0-FE31C3D5A09E">
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
-        <dmn:inputEntry id="_5C70BB81-CAFD-4695-A241-68F441FF9A29">
+        <dmn:inputEntry id="_A6E62101-1163-43DF-90F0-B5681E2A80A0">
           <dmn:text>"Insufficient"</dmn:text>
         </dmn:inputEntry>
-        <dmn:inputEntry id="_78A3C3A0-EEBC-448B-B1C1-5CFF6C7F2AC5">
+        <dmn:inputEntry id="_C7C19A5A-0450-479C-9F61-5089C22C80FA">
           <dmn:text>"Sufficient"</dmn:text>
         </dmn:inputEntry>
-        <dmn:outputEntry id="_3C38D181-CCA1-4678-A3DD-0A5CE6D59FDC">
+        <dmn:outputEntry id="_1FECFF84-F9B0-4AE0-9D66-489568F18AA3">
           <dmn:text>"Not Qualified"</dmn:text>
         </dmn:outputEntry>
-        <dmn:outputEntry id="_F4284B9F-C77A-429B-A689-E212CFB19CB7">
+        <dmn:outputEntry id="_1E44C1E5-20E0-4C9B-92DF-CA9A91A97B89">
           <dmn:text>"Debt to income ratio is too high."</dmn:text>
         </dmn:outputEntry>
         <dmn:annotationEntry>
@@ -416,19 +416,19 @@ else "Insufficient"</dmn:text>
         </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_73E96773-064E-49F6-92B2-AA76E6BF6B8A">
-        <dmn:inputEntry id="_24A825F0-B8C7-42C9-BBA2-4442CAE6F91A">
+        <dmn:inputEntry id="_00276ED3-1593-4C2F-BF51-345A769FB48E">
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
-        <dmn:inputEntry id="_B7F59A5C-4AF1-4E90-BB0D-83C63A8390E6">
+        <dmn:inputEntry id="_976BBD10-D6AC-470C-B595-31E5121113E5">
           <dmn:text>"Sufficient"</dmn:text>
         </dmn:inputEntry>
-        <dmn:inputEntry id="_09A23FD4-9A98-4C34-9E9B-9E8EE652ABBC">
+        <dmn:inputEntry id="_A920B8D7-274B-4EC2-9462-220FB70DE1E2">
           <dmn:text>"Insufficient"</dmn:text>
         </dmn:inputEntry>
-        <dmn:outputEntry id="_9BF1096A-1AF3-4D21-9273-460DE555F0B6">
+        <dmn:outputEntry id="_4D98FCD4-51AF-4D63-A834-FC9C45857269">
           <dmn:text>"Not Qualified"</dmn:text>
         </dmn:outputEntry>
-        <dmn:outputEntry id="_4D805BB2-B79E-42C2-A562-674ECBDFA01C">
+        <dmn:outputEntry id="_265AAD83-A863-4BB1-A5EE-A05AC92D6954">
           <dmn:text>"Mortgage payment to income ratio is too high."</dmn:text>
         </dmn:outputEntry>
         <dmn:annotationEntry>
@@ -436,19 +436,19 @@ else "Insufficient"</dmn:text>
         </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_7C242C58-6CAB-43CF-9235-347A72AE3F9E">
-        <dmn:inputEntry id="_9DF2A026-8B87-4C75-BB3D-54FF0E2A2E36">
+        <dmn:inputEntry id="_75B55DF7-D90E-4246-8B1E-5A1901EFA6DB">
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
-        <dmn:inputEntry id="_FF3E9782-BE9C-4B0C-A63B-E906F6116251">
+        <dmn:inputEntry id="_B3E979A7-6015-41A6-B2C6-97AA8CB4D345">
           <dmn:text>"Insufficient"</dmn:text>
         </dmn:inputEntry>
-        <dmn:inputEntry id="_544687CD-F3A2-46C7-8439-E5E2E7B6483D">
+        <dmn:inputEntry id="_0FB0E224-0BF0-4917-BCCF-147C7BCAF189">
           <dmn:text>"Insufficient"</dmn:text>
         </dmn:inputEntry>
-        <dmn:outputEntry id="_5A958D2E-B310-4AB9-BF5B-49623BE5DB55">
+        <dmn:outputEntry id="_ACEA3D84-25E8-4090-8BD1-9537D4553B43">
           <dmn:text>"Not Qualified"</dmn:text>
         </dmn:outputEntry>
-        <dmn:outputEntry id="_F0BD7DC2-A1B6-4CF4-95D0-906DBB540EFC">
+        <dmn:outputEntry id="_DF7D260A-8317-4E97-9F4E-168ABFF12E2E">
           <dmn:text>"Debt to income ratio is too high AND mortgage payment to income ratio is too high."</dmn:text>
         </dmn:outputEntry>
         <dmn:annotationEntry>
@@ -456,20 +456,120 @@ else "Insufficient"</dmn:text>
         </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_C8FA33B1-AF6E-4A59-B7B9-6FDF1F495C44">
-        <dmn:inputEntry id="_82FBCEE2-C16C-4FFF-A7F3-5512C211E29B">
+        <dmn:inputEntry id="_346EF605-56E5-4FA0-A4A8-3E12CB3D469D">
           <dmn:text>"Fair", "Good", "Excellent"</dmn:text>
         </dmn:inputEntry>
-        <dmn:inputEntry id="_BF7CDAE1-66E3-4B06-8729-896453AD7867">
+        <dmn:inputEntry id="_0BCFF288-D9C8-47C3-A992-FA7379618D85">
           <dmn:text>"Sufficient"</dmn:text>
         </dmn:inputEntry>
-        <dmn:inputEntry id="_41CB6123-8122-4FA4-A5C1-548B92CA31AE">
+        <dmn:inputEntry id="_E0521214-70A1-4243-BBA1-935BEA1AB948">
           <dmn:text>"Sufficient"</dmn:text>
         </dmn:inputEntry>
-        <dmn:outputEntry id="_9E0497D0-F2F2-419E-A558-366452B379A1">
+        <dmn:outputEntry id="_0A97EA9E-A5EF-479A-82C5-935C67731A57">
           <dmn:text>"Qualified"</dmn:text>
         </dmn:outputEntry>
-        <dmn:outputEntry id="_113CA566-6044-4858-B8D9-5ACBA4A91CF4">
+        <dmn:outputEntry id="_EF40A8CF-8DF8-40AF-8E8B-416B1EB87634">
           <dmn:text>"The borrower has been successfully prequalified for the requested loan."</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_E38E0765-1DF8-4289-8C65-9B418508D39A">
+        <dmn:inputEntry id="_9FC168F8-70EE-4B0F-B71B-8159AD84FB00">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_EE3CA835-C57C-46F8-A244-CF37C7218484">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_40078FB1-D977-4231-824C-6084F7073865">
+          <dmn:text>"Suffuc"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_960E6973-AB8F-4FCE-9D9C-DF05967C6E19">
+          <dmn:text/>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_6F979EC2-B9DA-4F42-8B5F-4F68356D5115">
+          <dmn:text/>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_0F1D748D-DF6D-4B8D-BDA2-06E537F29CCD">
+        <dmn:inputEntry id="_4A9E7382-F241-46E5-ACCC-E2949A467F0F">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_1F78FDF8-E812-48A9-AAB3-1CDEC13E40E2">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_1555ABE5-6C74-4B17-A25B-74DB7FC0A44B">
+          <dmn:text>"Suffuc"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_2B08FED5-A068-4219-ADDD-D58C91972C50">
+          <dmn:text/>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_79024AD9-924F-44F6-B4EE-C0E9FF1C0ABF">
+          <dmn:text/>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_1892870F-D886-4906-8853-1480A82180E5">
+        <dmn:inputEntry id="_18041F81-7AC1-4E9C-B439-8E6C7874F794">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_2B8B9702-ECCB-4101-83B9-85C594BB8C28">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_4F5E25F0-EF06-4969-ACE2-F779C6DD6BBF">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_2F5D3E11-1AC3-4CFF-9C10-003DE50D16D4">
+          <dmn:text/>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_6BA52FE2-4673-422F-A309-D86E28FE52AF">
+          <dmn:text/>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_69C5EB61-6E8A-48B4-8320-AAFC074FC296">
+        <dmn:inputEntry id="_2D2F4320-BF08-4052-847B-C1420846353A">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_FEE0F877-E82F-4A7C-A543-FC753861DA93">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_633E1A65-ABCD-4007-886D-3AAD235B2C27">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_3D34B7AB-05FA-4088-BB22-CC5A8F0C90BE">
+          <dmn:text/>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_7A36E19B-1669-4E22-8C9C-156CE1210181">
+          <dmn:text/>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_1B2FEA91-2BBF-4FE8-995F-CFD022A96C9F">
+        <dmn:inputEntry id="_7E63E098-F058-4032-BDD3-A78835D04800">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_287B9454-BF7F-484D-A145-1757D8E76B1F">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_DBC3D896-3628-4744-92F2-75829AEEA3C9">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_D1327611-ECED-4CFE-B54E-95193E06CDF1">
+          <dmn:text/>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_D8258BCF-E7D7-445F-B4B3-986AAAF70FEC">
+          <dmn:text/>
         </dmn:outputEntry>
         <dmn:annotationEntry>
           <dmn:text/>
